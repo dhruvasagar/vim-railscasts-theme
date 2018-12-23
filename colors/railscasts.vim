@@ -59,6 +59,7 @@ let s:pallete = {
       \ 'lightgray':    {'gui': '#a8a8a8', 'cterm': 248},
       \ 'off_white':    {'gui': '#e4e4e4', 'cterm': 254},
       \ 'white':        {'gui': '#ffffff', 'cterm': 255},
+      \ 'user2':        {'gui': '#ffaf00', 'cterm': 214},
       \ 'NONE':         {'gui': 'NONE',    'cterm': 'NONE'},
       \}
 
@@ -213,3 +214,14 @@ hi! link htmlEndTag           xmlEndTag
 call s:Hi('checkbox', 'bg_3', 'NONE', 'NONE')
 call s:Hi('checkboxDone', 'brightgreen', 'NONE', 'bold')
 call s:Hi('checkboxNotDone', 'darkblue', 'NONE', 'bold')
+
+" Statusline User
+call s:Hi('User1', 'white', 'gray', 'bold')
+call s:Hi('User2', 'yellow', 'gray', 'bold')
+call s:Hi('User3', 'brightgreen', 'gray', 'bold')
+call s:Hi('User4', 'darkred', 'gray', 'bold')
+call s:Hi('User5', 'off_white', 'gray', 'bold')
+call s:Hi('User6', 'off_white', 'gray', 'bold')
+call s:Hi('User7', 'off_white', 'gray', 'bold')
+call s:Hi('User8', 'off_white', 'gray', 'bold')
+call s:Hi('User9', 'off_white', 'gray', 'bold')
