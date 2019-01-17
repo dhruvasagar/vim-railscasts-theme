@@ -8,10 +8,11 @@ There are 2 ways to do this
 
 1. I recommend installing <a href="https://github.com/tpope/vim-pathogen">pathogen.vim</a> and then adding a git submodule for your plugin:
 
-   ```sh
-$ cd ~/.vim
-$ git submodule add git@github.com:dhruvasagar/vim-railscasts-theme.git bundle/railscasts-theme
-   ```
+  ```sh
+  $ cd ~/.vim
+  $ git submodule add git@github.com:dhruvasagar/vim-railscasts-theme.git bundle/railscasts-theme
+  ```
+
 2. Copy railscasts.vim into ~/.vim/colors/ (Unix) or vimfiles/colors/ (Windows) as with 
    other color schemes. Type "colorscheme railscasts" into your vimrc file.
 
