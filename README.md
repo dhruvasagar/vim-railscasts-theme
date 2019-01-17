@@ -16,7 +16,7 @@ There are 2 ways to do this
 2. Copy railscasts.vim into ~/.vim/colors/ (Unix) or vimfiles/colors/ (Windows) as with 
    other color schemes. Type "colorscheme railscasts" into your vimrc file.
 
-# Screenshot
+# Screenshots
 
 ## GUI :
 <img src="https://raw.github.com/dhruvasagar/vim-railscasts-theme/master/screenshot.png" />
