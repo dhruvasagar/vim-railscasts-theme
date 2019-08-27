@@ -226,3 +226,7 @@ call s:Hi('User6', 'off_white', 'gray', 'bold')
 call s:Hi('User7', 'off_white', 'gray', 'bold')
 call s:Hi('User8', 'off_white', 'gray', 'bold')
 call s:Hi('User9', 'off_white', 'gray', 'bold')
+
+" Markdown
+" --------
+call s:Hi('markdownCode', 'off_white', 'bg_3')
