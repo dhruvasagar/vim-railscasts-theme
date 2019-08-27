@@ -116,7 +116,7 @@ call s:Hi('StatusLineNC', 'darkgray_1', 'bg_2', 'NONE')
 
 " Folds
 " -----
-call s:Hi('Folded', 'white', 'darkgray', 'NONE')
+call s:Hi('Folded', 'gray_1', 'bg_1', 'NONE')
 hi! link FoldColumn SignColumn
 
 " Invisible Characters
