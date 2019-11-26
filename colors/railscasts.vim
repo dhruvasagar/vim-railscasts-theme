@@ -161,6 +161,7 @@ call s:Hi('DiffChange', 'white', 'darkpurple')
 call s:Hi('DiffText', 'white', 'lightred')
 
 call s:Hi('diffAdded', 'green')
+call s:Hi('diffChanged', 'darkpurple')
 call s:Hi('diffRemoved', 'red')
 call s:Hi('diffNewFile', 'white', 'NONE', 'bold')
 call s:Hi('diffFile', 'white', 'NONE', 'bold')
@@ -230,3 +231,7 @@ call s:Hi('User9', 'off_white', 'gray', 'bold')
 " Markdown
 " --------
 call s:Hi('markdownCode', 'off_white', 'bg_3')
+
+hi! link GitGutterAdd diffAdded
+hi! link GitGutterChange diffChanged
+hi! link GitGutterDelete diffRemoved
