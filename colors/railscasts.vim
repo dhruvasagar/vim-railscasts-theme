@@ -106,6 +106,10 @@ call s:Hi('CursorLineNr', 'lightgray', '', 'NONE')
 call s:Hi('ColorColumn', '', 'bg_1', 'NONE')
 hi! link CursorColumn ColorColumn
 
+call s:Hi('TabLine', 'lightgray', 'darkgray', 'NONE')
+call s:Hi('TabLineFill', 'bg_2')
+call s:Hi('TabLineSel', 'off_white', 'bg')
+
 call s:Hi('VertSplit', 'darkgray', 'bg', 'NONE')
 call s:Hi('SignColumn', 'white', 'NONE')
 
