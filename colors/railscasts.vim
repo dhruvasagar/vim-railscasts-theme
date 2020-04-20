@@ -236,6 +236,15 @@ call s:Hi('User9', 'off_white', 'gray', 'bold')
 " --------
 call s:Hi('markdownCode', 'off_white', 'bg_3')
 
+" Vimwiki
+" -------
+call s:Hi('VimwikiHeaderChar', 'red')
+call s:Hi('VimwikiHeader1', 'darkpink')
+call s:Hi('VimwikiHeader2', 'green')
+call s:Hi('VimwikiHeader3', 'lightgreen')
+call s:Hi('VimwikiPre', 'yellow')
+call s:Hi('VimwikiCode', 'yellow')
+
 hi! link GitGutterAdd diffAdded
 hi! link GitGutterChange diffChanged
 hi! link GitGutterDelete diffRemoved
